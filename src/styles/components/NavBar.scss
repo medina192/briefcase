@@ -1,0 +1,45 @@
+
+.NB_container-navbar{
+    display: flex;
+}
+
+.NB_container-left{
+    width: 50%;
+    display: flex;
+}
+
+
+
+.NB_container-left a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    margin-left: 1rem;
+    padding: 1rem;
+
+    &:hover{
+        background-color: red;
+    }
+}
+
+.NB_container-right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NB_container-left i{
+    font-size: 2rem;
+}
+
+.NB_container-right a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    margin-right: 1rem;
+    padding: 1rem;
+
+    &:hover{
+        background-color: red;
+    }
+}

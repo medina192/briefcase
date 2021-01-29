@@ -1,0 +1,172 @@
+
+
+.SS_container-Skills{
+    padding: 5rem;
+    background-color: bisque;
+}
+
+
+
+.SS_container-title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    color: darken($color: #FF5714, $amount: 10%);
+}
+
+.SS_container-title h2{
+    margin-bottom: 1rem;
+}
+
+.SS_container-flex{
+
+}
+
+.SS_container-flex-first-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.SS_container-flex-second-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.SS_container-img img{
+    border-radius: 10%;
+}
+
+.SS_img-identifier{
+ 
+    width: 9.5rem;
+    height: 9.5rem;
+    
+    &:hover{
+        width: 12rem;
+    }
+}
+
+
+.speech-bubble {
+	position: relative;
+	background:#FF5714;
+    border-radius: .4em;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+    bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 1rem solid transparent;
+	border-top-color: #FF5714;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -0.8rem;
+	margin-bottom: -1rem;
+}
+
+.hideBurbble{
+    display: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 500px){
+    
+.SS_container-Skills{
+    padding: 1rem;
+    background-color: bisque;
+}
+
+
+
+.SS_container-title{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    color: darken($color: #FF5714, $amount: 10%);
+}
+
+.SS_container-title h2{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.SS_container-flex{
+
+}
+
+.SS_container-flex-first-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SS_container-flex-second-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.SS_container-img img{
+    border-radius: 10%;
+}
+
+.SS_img-identifier{
+ 
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+}
+
+
+.speech-bubble {
+	position: relative;
+	background: #FF5714;
+    border-radius: .4em;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+    bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 1rem solid transparent;
+	border-top-color: #FF5714;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -0.8rem;
+	margin-bottom: -1rem;
+}
+}
+
+
+
+
+

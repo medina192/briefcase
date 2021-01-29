@@ -1,0 +1,110 @@
+
+.FC_container-footer{
+    background-color: #0A2342;
+}
+
+.FC_container-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.FC_container-icon-contact{
+    width: 33%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.FC_container-icon-contact i{
+    font-size: 2.2rem;
+    margin: 1rem;
+}
+
+.FC_container-icon-contact p{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.FC_container-icon-contact a{
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.FC_container-rights{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FC_container-rights p{
+    font-size: 1.8rem;
+    padding: 1rem;
+    font-weight: 700;
+    color: darken($color: #FF5714, $amount: 12%);
+}
+
+
+
+
+@media (max-width: 500px)
+{
+   
+.FC_container-footer{
+    background-color: #0A2342;
+}
+
+.FC_container-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FC_container-icon-contact{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.FC_container-icon-contact i{
+    font-size: 2.2rem;
+    margin: 1rem;
+}
+
+.FC_container-icon-contact p{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.FC_container-icon-contact a{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.FC_container-rights{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FC_container-rights p{
+    font-size: 1.4rem;
+    padding: 1rem;
+    font-weight: 700;
+    color: darken($color: #FF5714, $amount: 12%);
+}
+ 
+}
+
+
+

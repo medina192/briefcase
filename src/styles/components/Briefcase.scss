@@ -1,0 +1,158 @@
+
+.BC_container-briefcase{
+    padding: 8rem 10rem;
+    width: 100%;
+    background-color: bisque;
+}
+
+.BC_briefcase-title{
+
+}
+
+.BC_briefcase-title h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0;
+    color: darken($color: #FF5714, $amount: 10%);
+}
+
+.BC_briefcase-title hr{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.BC_container-briefcase h5{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: beige;
+    color: darken($color: #FF5714, $amount: 10%);
+}
+
+.BC_container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BC_card{
+    width: 28%;
+    background-color: #FFFDF7;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0.1rem 0.4rem 1.5rem 0.1rem #000000; 
+    box-shadow: 0.1rem 0.4rem 1.5rem 0.1rem #000000;
+}
+
+.BC_card-main-image{
+    width: 100%
+}
+
+.BC_container-text{
+    padding: 1rem;
+}
+
+.BC_container-text h4{
+    font-size: 2rem;
+    text-align: center;
+    color: darken($color: #FF5714, $amount: 12%);
+}
+
+.BC_container-text p{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.BC_container-icons{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    padding: 1rem;
+}
+
+.BC_card-icon-image{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 20%;
+}
+
+.BC_container-links{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BC_container-links a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: lighten($color: #0A2342, $amount: 10%)
+}
+
+.BC_last-link{
+    margin-bottom: 1rem;
+}
+
+.BC_container-cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.8rem 0;
+}
+
+.BC_container-cell i{
+    font-size: 2.8rem;
+    margin-right: 1rem;
+    color: darken($color: #FFB800, $amount: 5%);
+}
+
+.BC_container-cell p{
+    font-size: 1.8rem;
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .BC_container-briefcase{
+        padding: 4rem 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .BC_container-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .BC_briefcase-title h2{
+        font-size: 2.2rem;
+        text-align: center;
+        margin-top: 0;
+        color: darken($color: #FF5714, $amount: 10%);
+    }
+
+    .BC_card{
+        width: 95%;
+        background-color: #FFFDF7;
+        border-radius: 1rem;
+        -webkit-box-shadow: 0.1rem 0.4rem 1.5rem 0.1rem #000000; 
+        box-shadow: 0.1rem 0.4rem 1.5rem 0.1rem #000000;
+        margin-bottom: 3rem;
+    }
+}

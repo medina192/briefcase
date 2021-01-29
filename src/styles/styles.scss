@@ -1,0 +1,17 @@
+
+@import './normalize.scss';
+@import './components/MainWebSite.scss';
+@import './components/Header.scss';
+@import './components/NavBar.scss';
+@import './components/Briefcase.scss';
+@import './components/WebCard.scss';
+@import './components/SkillsSet.scss';
+@import './components/FooterContact.scss';
+
+
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
